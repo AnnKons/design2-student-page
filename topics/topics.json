@@ -8,31 +8,31 @@
     {
         "id": 2,
         "title": "UML Class",
-        "description": "Диаграмма классов",
+        "description": "Лабораторная работа 2",
         "preview": "img/abstraktsiia-risunok-vitrazh-linii.jpg"
     },
      {
         "id": 3,
         "title": "Лабораторная работа 3",
-        "description": "Диаграмма классов",
+        "description": "Лабораторная работа 3",
         "preview": "img/abstraktsiia-risunok-vitrazh-linii.jpg"
     },
      {
         "id": 4,
         "title": "Лабораторная работа 4",
-        "description": "Диаграмма классов",
+        "description": "Лабораторная работа 4",
         "preview": "img/abstraktsiia-risunok-vitrazh-linii.jpg"
     },
      {
         "id": 5,
         "title": "Лабораторная работа 5",
-        "description": "Диаграмма классов",
+        "description": "Лабораторная работа 5",
         "preview": "img/abstraktsiia-risunok-vitrazh-linii.jpg"
     },
      {
         "id": 6,
         "title": "Лабораторная работа 6",
-        "description": "Диаграмма классов",
+        "description": "Лабораторная работа 6",
         "preview": "img/abstraktsiia-risunok-vitrazh-linii.jpg"
     }
 ]
