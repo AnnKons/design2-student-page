@@ -4,6 +4,7 @@ angular.module('designApp', [
   'ngResource'
 ]).config(function ($mdThemingProvider) {
   $mdThemingProvider.theme('default')
-    .primaryPalette('deep-purple')
-    .accentPalette('teal');
+    .primaryPalette('deep-firebrick')
+    .accentPalette('Pink')
+  .backgroundPalette ('Grey');
 });
