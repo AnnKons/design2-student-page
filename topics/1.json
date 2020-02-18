@@ -6,7 +6,7 @@
             "data": [
                 {
                     "text": "1. Идентификатор прецедента",
-                    "class": "md-headline"
+                    "class": "md-title"
                 }
             ]
         },
@@ -22,8 +22,8 @@
             "type": "text",
             "data": [
                 {
-                    "text": "2. Название прецедента"
-                    "class": "md-headline"
+                    "text": "2. Название прецедента",
+                    "class": "md-title"
                 }
             ]
         },
@@ -39,8 +39,8 @@
             "type": "text",
             "data": [
                 {
-                    "text": "3. Контекст"
-                    "class": "md-headline"
+                    "text": "3. Контекст",
+                    "class": "md-title"
                 }
             ]
         },
@@ -56,19 +56,43 @@
             "type": "text",
             "data": [
                 {
-                    "text": "Картинка"
+                    "text": "4. Участники (actors) и цели (goals)",
+                    "class": "md-title"
                 }
             ]
         },
         {
             "type": "image",
-            "data": "img/use-case-diagram.png"
+            "data": ""
         },
         {
             "type": "text",
             "data": [
                 {
-                    "text": "Постусловия",
+                    "text": "5. Предусловия (pre-conditions)",
+                    "class": "md-title"
+                }
+            ]
+        },
+        {
+            "type": "list",
+            "data": [
+                [{
+                    "text": "освоена работа с личным репозиторием и основными CASE-инструментами"
+                }],
+                [{
+                    "text": "освоены основные приемы преобразования диаграмм IDEF0 в UML USE Case"
+                }],
+                [{
+                    "text": "сформированы примеры концептуальных отношений и выбран прецедент для описания"
+                }]
+            ]
+        },
+        {
+            "type": "text",
+            "data": [
+                {
+                    "text": "6. Постусловия (post-conditions)",
                     "class": "md-title"
                 }
             ]
@@ -86,6 +110,56 @@
                     "text": "ссылка на личную страницу записана в списке группы"
                 }]
             ]
+        },
+        {
+            "type": "text",
+            "data": [
+                {
+                    "text": "7. Основной поток (main flow)",
+                    "class": "md-title"
+                }
+            ]
+        },
+        {
+            "type": "text",
+            "data": [
+                {
+                    "text": "Дисциплина Проектирование информационных систем"
+                }
+            ]
+        },
+        {
+            "type": "text",
+            "data": [
+                {
+                    "text": "8. Исключения (exceptions)",
+                    "class": "md-title"
+                }
+            ]
+        },
+        {
+            "type": "list",
+            "data": [
+                [{
+                    "text": "Проблема в нехватке времени"
+                }],
+                [{
+                    "text": "Несогласованные по смыслу/содержанию/наполнению UML CASE"
+                }]
+            ]
+        },
+        {
+            "type": "image",
+            "data":"" 
+        },
+        {
+            "type": "text",
+            "data": [
+                {
+                    "text": "Файл",
+                    "link": ""
+                }
+                ]
         }
     ]
 }
