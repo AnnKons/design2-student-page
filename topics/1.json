@@ -5,8 +5,8 @@
             "type": "text",
             "data": [
                 {
-                    "text": "Разработка диаграммы",
-                    "class": "md-title"
+                    "text": "1. Идентификатор прецедента",
+                    "class": "md-headline"
                 }
             ]
         },
@@ -14,11 +14,7 @@
             "type": "text",
             "data": [
                 {
-                    "text": "Диаграмма создана с помощью "
-                },
-                {
-                    "text": "PlantUML",
-                    "link": "https://plantuml.com"
+                    "text": "Лабораторная работа 1"
                 }
             ]
         },
@@ -26,7 +22,41 @@
             "type": "text",
             "data": [
                 {
-                    "text": "PlantUML is used to draw UML diagrams, using a simple and human readable text description. Be careful, because it does not prevent you from drawing inconsistent diagrams (such as having two classes inheriting from each other, for example). So it's more a drawing tool than a modeling tool."
+                    "text": "2. Название прецедента"
+                    "class": "md-headline"
+                }
+            ]
+        },
+        {
+            "type": "text",
+            "data": [
+                {
+                    "text": "Разметка личной страницы, разработка UML Use Case"
+                }
+            ]
+        },
+        {
+            "type": "text",
+            "data": [
+                {
+                    "text": "3. Контекст"
+                    "class": "md-headline"
+                }
+            ]
+        },
+        {
+            "type": "text",
+            "data": [
+                {
+                    "text": "Дисциплина Проектирование информационных систем"
+                }
+            ]
+        },
+        {
+            "type": "text",
+            "data": [
+                {
+                    "text": "Картинка"
                 }
             ]
         },
