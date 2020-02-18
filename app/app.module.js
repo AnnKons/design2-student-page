@@ -4,7 +4,6 @@ angular.module('designApp', [
   'ngResource'
 ]).config(function ($mdThemingProvider) {
   $mdThemingProvider.theme('default')
-    .primaryPalette('deep-firebrick')
-    .accentPalette('Pink')
-  .backgroundPalette ('Grey');
+    .primaryPalette('deep-black')
+    .accentPalette('grey');
 });
