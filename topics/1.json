@@ -131,12 +131,8 @@
             ]
         },
         {
-            "type": "text",
-            "data": [
-                {
-                    "text": "Тут будет табличка"
-                }
-            ]
+            "type": "image",
+            "data": "https://raw.githubusercontent.com/AnnKons/design2-student-page/master/img/Учасники-Цели.jpg?raw=true" 
         },
         {
             "type": "text",
