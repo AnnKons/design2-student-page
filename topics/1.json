@@ -61,16 +61,9 @@
                 }
             ]
         },
-        {
-            "type": "list",
-            "data": [
-                [{
-                    "text": "Маркетолог"
-                }],
-                [{
-                    "text": "Система Вконтакте"
-                }]
-            ]
+         {
+            "type": "image",
+            "data": "https://raw.githubusercontent.com/AnnKons/design2-student-page/master/img/Учасники-Цели.jpg?raw=true" 
         },
         {
             "type": "text",
@@ -130,9 +123,13 @@
                 }
             ]
         },
-        {
-            "type": "image",
-            "data": "https://raw.githubusercontent.com/AnnKons/design2-student-page/master/img/Учасники-Цели.jpg?raw=true" 
+       {
+            "type": "text",
+            "data": [
+                {
+                    "text": "Тут будет табличка"
+                }
+            ]
         },
         {
             "type": "text",
