@@ -11,30 +11,25 @@ skinparam usecase {
 }
 left to right direction
 actor P0 as "Пользователь"
-actor DR as "Директор"
 actor M as "Маркетолог"
-actor S as "Продажник"
 actor M0 as "Система"
 actor V as "Социальная сеть Вконтакте"
-actor CR as "CRM система"
 
-package APP as "Продажа товаров/услуг"{
-usecase A as "Принятие решения о продвижении продукта / услуги в интернете"
-usecase B as "Подготовка к продвижению продукта / услуги в интернете"
-usecase C as "Продвижение продукта / услуги в интернете"
-usecase D as "Продажа продукта / услуги"
+package APP as "Подготовка к продвижению товара/услуги в интернете"{
+usecase A as "Проведение исследований"
+usecase B as "Создание стратегии продвижения"
+usecase C as "Подготовка аккаунта в Вконтакте"
+usecase D as "Подготовка контента для продвижения"
 
-DR -- (A)
+M -- (A)
+(A) -- V
 M -- (B)
 (B) -- V
 M -- (C)
 (C) -- V
-S -- (D)
-(D) -- CR
+M -- (D)
+(D) -- V
 }
-P0 <|-- DR
 P0 <|-- M
-P0 <|-- S
 V --|> M0
-CR --|> M0
 @enduml
