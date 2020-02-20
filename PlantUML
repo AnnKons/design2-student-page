@@ -1,0 +1,40 @@
+@startuml
+skinparam actor {
+	BackgroundColor White
+	ArrowColor Black
+	BorderColor Black
+}
+skinparam usecase {
+	BackgroundColor White
+	ArrowColor Black
+	BorderColor Black
+}
+left to right direction
+actor P0 as "Пользователь"
+actor DR as "Директор"
+actor M as "Маркетолог"
+actor S as "Продажник"
+actor M0 as "Система"
+actor V as "Социальная сеть Вконтакте"
+actor CR as "CRM система"
+
+package APP as "Продажа товаров/услуг"{
+usecase A as "Принятие решения о продвижении продукта / услуги в интернете"
+usecase B as "Подготовка к продвижению продукта / услуги в интернете"
+usecase C as "Продвижение продукта / услуги в интернете"
+usecase D as "Продажа продукта / услуги"
+
+DR -- (A)
+M -- (B)
+(B) -- V
+M -- (C)
+(C) -- V
+S -- (D)
+(D) -- CR
+}
+P0 <|-- DR
+P0 <|-- M
+P0 <|-- S
+V --|> M0
+CR --|> M0
+@enduml
