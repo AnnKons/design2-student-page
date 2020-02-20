@@ -114,18 +114,18 @@
                 }]
             ]
         },
-        {
+         {
             "type": "text",
             "data": [
                 {
-                    "text": "7. Основной поток (main flow)",
+                    "text": "7. Основной поток",
                     "class": "md-title"
                 }
             ]
         },
-       {
-            "type": "text",
-            "data": "https://github.com/AnnKons/design2-student-page/blob/master/img/Actions.jpg?raw=true"
+        {
+            "type": "image",
+            "data": "https://github.com/AnnKons/design2-student-page/blob/master/img/Actions.jpg?raw=true" 
         },
        {
             "type": "text",
